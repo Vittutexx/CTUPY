@@ -1,0 +1,15 @@
+acesso = input("Você é ADM, USR ou GUEST?")
+genero = input("Qual seu Gênero?")
+
+if acesso == "ADM" and genero == "Homem":
+    print("Olá administrador")
+elif acesso == "ADM" and genero == "Mulher":
+    print("Olá administradora")
+elif acesso == "USR" and genero == "Homem":
+    print("Olá usuário")
+elif acesso == "USR" and genero == "Mulher":
+    print("Olá usuária")
+elif acesso == "GUEST":
+    print("Olá visitante")
+else:
+    print("Olá desconhecido(a)")
